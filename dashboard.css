@@ -1,0 +1,271 @@
+body {
+  font-size: 1rem;
+}
+/* You can add global styles to this file, and also import other style files */
+body,
+html {
+  font-family: Ubuntu !important;
+  font-style: normal;
+  font-weight: normal;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h6 {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-size: 30px;
+}
+h1,
+h5 {
+  font-weight: normal;
+}
+
+
+
+.banner{
+  margin-top: 10%;
+}
+.flower{
+  margin-top: 5%;
+  text-align: center;
+}
+.centertxt{
+  text-align: center;
+}
+.bannerImg{
+background-image: url(img/bgimage1.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+background-attachment: fixed;
+}
+.txtDet{
+font-family: Circular Std Book;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color: rgba(0, 0, 0, 0.6);
+
+}
+
+
+.navbar .navbar-toggler {
+  top: 0.25rem;
+  right: 1rem;
+}
+
+.text1{
+  font-family: Circular Std Book;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color:#000000;
+}
+
+.MainHead{
+  font-family: Great Vibes;
+font-style: normal;
+font-weight: normal;
+font-size: 90px;
+line-height: 113px;
+color: #000000;
+}
+
+.Date1{
+  font-family: Circular Std Book;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+ 
+  color:#000000;
+}
+
+.TimeCount{
+  margin-top:4%;
+  margin-left:2%;
+}
+
+
+.Date2{
+  font-family: Circular Std Book;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+color: #000000;
+
+}
+
+.dt{
+  font-family: Great Vibes;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+color:#333333;
+}
+
+.count{
+  align-items: center;
+  text-align: center;
+}
+
+.design1{
+  height: 100%;
+  background-image: url(img/design1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+.txt3{
+font-family: Great Vibes;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;
+color: #000000;
+}
+.txt4{
+  font-family: Circular Std Book;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: rgba(0, 0, 0, 0.6);
+}
+
+.bg-bottom{
+  background-image: url(img/BottomImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-attachment: fixed;
+}
+
+.btn{
+font-style: lighter;
+
+}
+.savethedate{
+  margin-bottom: 40%;
+  margin-top: 10%;
+}
+.rightli li{
+
+}
+
+.imgThumb{
+  height: 10%;
+}
+
+.divcolimg{
+  float: left;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 33.333333%;
+max-width: 33.333333%;
+}
+
+.imgtop{
+  z-index: 1;
+ 
+  position: absolute;
+}
+.imgbottom{
+  z-index: 1;
+  bottom: 0;
+  position: absolute;
+}
+
+
+
+header {
+  position: relative;
+  background-color: whitesmoke;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  opacity: 0.3;
+  z-index: 1;
+}
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('img/bgimage1.png') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+.Head1{
+  font-family: Great Vibes;
+font-style: normal;
+font-weight: normal;
+font-size: 3rem;
+line-height: 40px;
+color: #000000;
+}
+
+.btn{
+  border-radius: 35px;
+}
+
+
+.navbartop{
+  transition:500ms ease;
+  background:transparent;
+}
+
+.navbartop.scrolled{
+background: rgba(255, 255, 255, 0.4) !important;
+}
+
